@@ -1,0 +1,12 @@
+name: reach-services
+title: Reach Services
+maintainer: Luc IBata.
+copyright: Luc IBata.
+copyright_email: ibataluc@gmail.com
+license: Proprietary, All rights reserved
+summary: Verify that services are reachable
+version: 1.0.0
+depends:
+  - name: ec2-instance-profile
+    git: https://github.com/alexpop/ec2-instance-profile
+    version: '~> 0.1'
