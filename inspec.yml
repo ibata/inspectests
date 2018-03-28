@@ -9,4 +9,3 @@ version: 1.0.0
 depends:
   - name: reach-hosts
     git: https://github.com/ibata/inspectests
-    version: '~> 0.1'
