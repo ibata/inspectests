@@ -6,6 +6,9 @@ copyright_email: ibataluc@gmail.com
 license: Proprietary, All rights reserved
 summary: Verify that services are reachable
 version: 1.0.0
-depends:
-  - name: reach-hosts
-    git: https://github.com/ibata/inspectests
+supports:
+  - inspec: '~> 1.0'
+#depends:
+ # - name: reach-hosts
+  #  git: https://github.com/ibata/inspectests
+    
